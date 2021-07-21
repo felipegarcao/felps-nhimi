@@ -1,13 +1,14 @@
-import useAuth from './../hooks/useAuth'
+import { Box, Heading } from "@chakra-ui/react";
+import useAuth from "./../hooks/useAuth";
 
 export default function Home() {
-
   const { user, signin } = useAuth();
-  console.log('user', user)
+  console.log("user", user);
   return (
-    <>
-   <h2>Teste</h2>
-   <button onClick={() => signin()}>Entrar com o GitHub</button>
-   </>
-  )
+    <Box bg="gray.100" w="100%" p={4}>
+     <Heading as="h2" size="3xl" isTruncated>
+       Aprenda Programação Direto Ao Ponto
+     </Heading>
+    </Box>
+  );
 }
