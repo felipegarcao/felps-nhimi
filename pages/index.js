@@ -66,8 +66,9 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      technologies,
+      technologies: technologies,
     },
     revalidate: 120,
   };
 };
+ 
