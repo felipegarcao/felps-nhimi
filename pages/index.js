@@ -39,13 +39,13 @@ const Cover = ({ technologies }) => {
           </Button>
         </Box>
         
-        {technologies.map(t => (
+        {/* {technologies.map(t => (
           console.log(t),
           <Box key={t.id}>
             {t.name}
             <img src={t.logo.url} />
           </Box>
-        ))}
+        ))} */}
       
       </Flex>
     </Box>
