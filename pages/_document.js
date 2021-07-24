@@ -5,7 +5,7 @@ import theme from 'src/styles/theme';
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-BR">
         <Head>
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
           <link
