@@ -79,7 +79,7 @@ const AuthModal = ({ isOpen, onClose }) => {
 }
 
 const withAuthModal = (Component) => (props) => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen, onOpen, onClose } = useDisclosure(); // para fazer o controle do modal abrir e fechar
 
   return (
     <>
